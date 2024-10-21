@@ -1,9 +1,9 @@
 hostname = api.caiyunapp.com, *.cyapi.cn, mb3admin.com, license.enpass.io
-https:\/\/api\.caiyunapp\.com\/v1\/activity\? url script-response-body https://github.com/yi-fish/killAd/blob/main/break/caiyun.js
+https:\/\/api\.caiyunapp\.com\/v1\/activity\? url script-response-body https://github.com/yi-fish/killAd/raw/faf3b7465fff215bf37dab30cba408fb4aa37b12/break/caiyun.js
 https:\/\/biz\.cyapi\.cn\/(p\/v1\/entries|p\/v1\/trial_card\/info|v2\/product) url reject-dict
-https:\/\/biz\.cyapi\.cn\/(api\/v1\/user_detail|p\/v1\/vip_info|v2\/user) url script-response-body https://github.com/yi-fish/killAd/blob/main/break/caiyun.js
+https:\/\/biz\.cyapi\.cn\/(api\/v1\/user_detail|p\/v1\/vip_info|v2\/user) url script-response-body https://github.com/yi-fish/killAd/raw/faf3b7465fff215bf37dab30cba408fb4aa37b12/break/caiyun.js
 https:\/\/starplucker\.cyapi\.cn\/v3\/(config\/cypage\/\w+\/conditions|notification\/message_center|operation\/homefeatures) url reject-dict
-https:\/\/wrapper\.cyapi\.cn\/v1\/activity\? url script-response-body https://github.com/yi-fish/killAd/blob/main/break/caiyun.js
-https:\/\/wrapper\.cyapi\.cn\/v1\/(nafp\/origin_images|satellite)\? url script-request-header https://github.com/yi-fish/killAd/blob/main/break/caiyun.js
+https:\/\/wrapper\.cyapi\.cn\/v1\/activity\? url script-response-body https://github.com/yi-fish/killAd/raw/faf3b7465fff215bf37dab30cba408fb4aa37b12/break/caiyun.js
+https:\/\/wrapper\.cyapi\.cn\/v1\/(nafp\/origin_images|satellite)\? url script-request-header https://github.com/yi-fish/killAd/raw/faf3b7465fff215bf37dab30cba408fb4aa37b12/break/caiyun.js
 https:\/\/mb3admin.com\/admin\/service\/registration\/validateDevice\? url script-response-body https://raw.githubusercontent.com/yi-fish/killAd/refs/heads/main/caiyun/emby.js
 https:\/\/license\.enpass\.io\/api\/v1\/subscription\/me url script-response-body https://raw.githubusercontent.com/yi-fish/killAd/refs/heads/main/caiyun/enpass.js
